@@ -28,6 +28,34 @@
     color: #0E0E0E;
 }
 
+h1 {
+    display: flex;
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    color: white;
+    size: 20px;
+    background-color: #955D82;
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+
+div .buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .uxDesigner {
     position: absolute;
     height: 69px;
@@ -67,19 +95,17 @@ ul {
     color: #FFFFFF;
 }
 
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-
 .content {
+    position: absolute;
     margin: 0 auto;
     padding: 25px;
+    padding-top: 600px;
 }
 
 footer {
     display: flex;
     position: absolute;
+    top: 1800px;
     bottom: 0;
     background-color: #955D82;
     width: 100%;
